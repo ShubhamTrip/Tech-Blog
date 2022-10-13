@@ -1,0 +1,16 @@
+.Header{
+    margin-left: 6rem;
+    margin-right: 1rem;
+    border: solid red;
+    display: flex;
+    justify-content: flex-end;
+}
+.Header_Image, .Header_Image img{
+    height: 701.5px;
+    width: 667.4px;
+    
+    border: solid red;
+
+    border-radius: 0px;
+
+}

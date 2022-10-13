@@ -1,0 +1,47 @@
+.Navbar{
+    display: flex;
+    padding: 2rem 6rem;
+    justify-content: space-between;
+}
+.Navbar_Gpt3{
+    margin-right: 2rem;
+}
+.Navbar_Gpt3 p{
+    font-family: var(--font-family);
+    color: white;
+    font-size: 2rem;
+}
+.Navbar_Links{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex:1;
+}
+
+/* Link React should be added here */
+.Navbar_Links a, 
+.Navbar_Sign p{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding-right: 2rem;
+    font-family: var(--font-family);
+    cursor: pointer;
+}
+
+.Navbar_Sign{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.Navbar_Sign button{
+    width: 152px;
+    height: 50px;
+    left: 1153px;
+    top: 55px;
+    font-size: 16px;
+    color: white;
+    background: #FF4820;
+    border-radius: 5px;
+    cursor: pointer;
+}
