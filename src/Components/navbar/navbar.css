@@ -1,6 +1,7 @@
 .Navbar{
     display: flex;
-    padding: 2rem 6rem;
+    position: relative;
+    padding: 2rem;
     justify-content: space-between;
 }
 .Navbar_Gpt3{
@@ -30,6 +31,8 @@
 }
 
 .Navbar_Sign{
+    border: solid white;
+    flex:1;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -44,4 +47,42 @@
     background: #FF4820;
     border-radius: 5px;
     cursor: pointer;
+}
+.Navbar_menu{
+    border: solid white;
+    display: none;
+    padding:1rem;
+    position: relative;
+}
+.Navbar_menu_container{
+    position: absolute;
+    width: 150px;
+    right: 0px;
+    top: 60px;
+    border-radius:2px;
+    text-decoration: none;
+    text-align: right;
+    border: solid white 1px;
+    background: var(--color-bg);
+}
+
+.Navbar_menu_container p,
+.Navbar_menu_container a{
+    display: block;
+    text-decoration: none;
+    padding: 5px;
+    color: aliceblue;
+}
+.Navbar_menu_container button{
+    display: none;
+    padding:10px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: #FF4820;
+    color: aliceblue;
+}
+
+@media screen and (max-width: 1050px){
+    .Navbar_menu{display: block;}
+    .Navbar_Links{display: none;}
 }
