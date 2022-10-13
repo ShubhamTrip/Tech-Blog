@@ -1,0 +1,32 @@
+.Gpt3{
+    margin: 6rem;
+    padding: 4rem;
+    background-image: linear-gradient(to right bottom, #042c54, #042c54, #042c54, #042c54, #042c54, #042c54, #042c54, #042c54, #042c54, #042c54, #042c54, #042c54);
+}
+
+.gpt3__whatgpt3-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.gpt3__whatgpt3-container .Feature_card{
+    display: flex;
+    flex-direction: column;
+}
+
+.gpt3__whatgpt3-heading{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gpt3__whatgpt3-heading h1{
+    flex: 0.5;
+}
+
+.gpt3__whatgpt3-heading p{
+    color: #237cd5;
+}

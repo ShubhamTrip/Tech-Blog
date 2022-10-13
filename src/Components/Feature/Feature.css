@@ -1,0 +1,39 @@
+.Feature_card{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.Feature_title{
+    margin: 1rem;
+    display: block;
+}
+.Feature_title div{
+    width: 2rem;
+    height: 5px;
+    background: var(--gradient-bar);
+    border-radius: 2px;
+}
+.Feature_title h1{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+}
+
+.Feature_text{
+    flex: 1;
+    margin: 1rem;
+}
+.Feature_text p{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #81AFDD; 
+}
+
+
+

@@ -1,0 +1,38 @@
+.Brands{
+    flex:1;
+    display: flex;
+    justify-content: center;
+    
+}
+.Brands div{
+    padding: 10px;
+    height: 40px;
+    width: 70px;
+}
+.Brands div img{
+    height: 100%;
+    width: 100%;
+}
+
+@media screen and (max-width: 1050px) {
+    .Brands div{
+        padding: 5px;
+        height: 30px;
+        width: 60px;
+    }
+    .Brands div img{
+        height: 100%;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 650px) {
+    .Brands div{
+        padding: 5px;
+        height: 20px;
+        width: 50px;
+    }
+    .Brands div img{
+        height: 100%;
+        width: 100%;
+    }
+}
