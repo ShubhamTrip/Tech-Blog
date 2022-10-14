@@ -13,11 +13,11 @@ function Footer(){
                 </div>
                 <div className="Footer_Bottom_Table">
                     <table>
-                        <th>
+                        <tr>
                             <td>Links</td>
                             <td>Companies</td>
                             <td>Get in touch</td>
-                        </th>
+                        </tr>
                         <tr>
                             <td>Overons</td>
                             <td>Terms & Conditions</td>

@@ -1,3 +1,6 @@
+*{
+    color: white;
+}
 .Footer{
     padding: 8rem 8rem 0rem 8rem;
     background: #031B34;
@@ -15,4 +18,37 @@
     border: solid white 1px;
     color: white;
     font-size: 20px;
+}
+.Footer_Bottom{
+    border: solid white;
+    width: 100%;
+    margin-top: 8rem;
+    display: flex;
+    justify-content: space-between;
+}
+.Footer_Bottom_Text{
+    max-width:200px;
+}
+.Footer_Bottom_Table{
+    border: solid red; 
+}
+.Footer_Bottom_Table th{
+    border: solid black;
+}
+.Footer_Bottom_Table th td{
+    font-family: 'Gilroy-Bold';
+    text-align: end;
+    font-size: 14px;
+    line-height: 16px;
+    padding-left: 6rem;
+}
+.Footer_Bottom_Table tr{
+    border: solid white;
+}
+.Footer_Bottom_Table tr td{
+    font-family: 'Gilroy-Bold';
+    text-align: end;
+    font-size: 14px;
+    line-height: 16px;
+    padding-left: 6rem;
 }
