@@ -65,26 +65,12 @@ line-height: 30px;
         flex-direction: column;
 
     }
-    .Cta_Text p{
-    font-weight: 500;
-    font-size: 10px;
-    line-height: 25px;
-    }
     .Cta_Text h1{
-        font-weight: 800;
-        font-size: 20px;
-        line-height: 30px;
         padding-top: 10px;
         padding-bottom: 20px;
     }
     .Cta button{
         padding: 10px 30px;
         width: 100%;
-        border-radius: 20px;
-        font-size: 10px;
-        margin-left: 10px;
-        font-family: 'Manrope';
-        background-color: black;
-        color: white;
     }
 }
