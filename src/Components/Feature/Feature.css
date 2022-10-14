@@ -1,6 +1,6 @@
 .Feature_card{
     display: flex;
-    flex-wrap: nowrap;
+    flex: 1;
 }
 .Feature_title{
     margin: 1rem;
@@ -35,5 +35,30 @@
     color: #81AFDD; 
 }
 
+@media screen and (max-width: 1050px) {
+    
+    .Feature_title h1{
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 65px;
+        letter-spacing: -0.04em;
+        color: #FFFFFF;
+    }
+    .Feature_text p{
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 25px;
+        color: #81AFDD; 
+    }
 
+}
+@media screen and (max-width: 650px){
+    .Feature_card{
+        flex-direction: column;
+    }
+}
 
