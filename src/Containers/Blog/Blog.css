@@ -1,0 +1,25 @@
+.Blog{
+    margin: 6rem;
+    flex: 1;
+}
+
+.gradient_text{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.CardSection{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.CardGroup1{
+    flex: 1;
+    margin-right: 2rem;
+}
+
+.CardGroup2{
+    flex: 2;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+}

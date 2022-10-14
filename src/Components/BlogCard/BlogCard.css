@@ -1,0 +1,45 @@
+.BlogCard{
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: #042C54;
+    flex-direction: column;
+}
+.CardImage img{
+    width: 100%;
+    height: 100%;
+}
+.CardText{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.CardText_Date{
+  padding-bottom: 10px;
+  font-family: 'Manrope';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 11.649px;
+   line-height: 35px;
+   color: #FFFFFF;
+}
+.CardText_Text{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 19.3154px;
+    line-height: 30px;
+    padding-bottom: 2rem;
+    color: #FFFFFF;
+    flex: 1;
+}
+.CardText_Article_Link{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11.649px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
