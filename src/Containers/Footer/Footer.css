@@ -1,0 +1,18 @@
+.Footer{
+    padding: 8rem 8rem 0rem 8rem;
+    background: #031B34;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Footer h1{
+    font-size: 62px;
+    text-align: center;
+}
+.Footer button{
+    padding: 20px 40px;
+    background: transparent;
+    border: solid white 1px;
+    color: white;
+    font-size: 20px;
+}

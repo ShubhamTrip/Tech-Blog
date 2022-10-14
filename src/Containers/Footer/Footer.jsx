@@ -4,14 +4,14 @@ import './Footer.css'
 function Footer(){
     return(
         <div className="Footer">
-             <h1>Do you want to step in to the future before others</h1>
+             <h1 className="gradient_text">Do you want to step in to the future before others</h1>
              <button>Request Early Access</button>
              <div className="Footer_Bottom">
-                <div>
+                <div className="Footer_Bottom_Text">
                     <h1>GTP 3</h1>
                     <p>Crechterwoord K12 182 DK Alknjkcb, All Rights Reserved</p>
                 </div>
-                <div>
+                <div className="Footer_Bottom_Table">
                     <table>
                         <th>
                             <td>Links</td>
@@ -36,6 +36,7 @@ function Footer(){
                     </table>
                 </div>
              </div>
+             <p>© 2021 GPT-3. All rights reserved.</p>
         </div>
     );
 }
