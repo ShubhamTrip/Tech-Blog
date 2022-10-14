@@ -10,8 +10,8 @@ function App() {
       </div>
       <Brands/>
       <Gpt3/>
-      <Blog/>
       <CTA/>
+      <Blog/>
       <Footer/>
     </div>
   );

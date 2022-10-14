@@ -1,0 +1,90 @@
+.Cta{
+    margin: 6rem;
+    background: var(--gradient-bar);
+    display: flex;
+    padding: 3rem;
+    justify-content: space-between;
+    border-radius: 10px;
+    align-items: center;
+}
+.Cta_Text p{
+    color: black;
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 30px;
+}
+.Cta_Text h1{
+    color: black;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 45px;
+}
+.Cta button{
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-family: 'Manrope';
+    background-color: black;
+    color: white;
+}
+
+@media screen and (max-width:1050px) {
+    .Cta{
+        margin: 2rem;
+        padding: 2rem;
+    }
+    .Cta_Text p{
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 25px;
+    }
+    .Cta_Text h1{
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .Cta button{
+        padding: 10px 30px;
+        max-height: 40px;
+        min-width: 120px;
+        border-radius: 20px;
+        font-size: 10px;
+        margin-left: 10px;
+        font-family: 'Manrope';
+        background-color: black;
+        color: white;
+    }
+}
+@media screen and (max-width:650px) {
+    .Cta{
+        margin: 2rem;
+        padding: 1.5rem;
+        flex-direction: column;
+
+    }
+    .Cta_Text p{
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 25px;
+    }
+    .Cta_Text h1{
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 30px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    .Cta button{
+        padding: 10px 30px;
+        width: 100%;
+        border-radius: 20px;
+        font-size: 10px;
+        margin-left: 10px;
+        font-family: 'Manrope';
+        background-color: black;
+        color: white;
+    }
+}
